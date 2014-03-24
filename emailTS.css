@@ -1,0 +1,75 @@
+/*
+ * Email Typo/Suggestion Plugin
+ * Author
+ * Versatility Werks (flwebsites.biz)
+ *
+ * License
+ * Copyright (c) 2014 Versatility Werks
+ *
+ * Licensed under the MIT License.
+ *
+ * v 1.0
+ */
+.emailWrap{ position: relative; }
+
+.emailSuggestion{
+	text-align: right; font-style: italic; color: #E43C3C; font-size: 14px;
+}
+.changeEmail{
+    color: #E43C3C; text-decoration: underline; font-weight: bold;
+}
+.changeEmail:hover, .changeEmail:active, .changeEmail:link{
+	color: #E43C3C; text-decoration: underline; font-weight: bold;
+}
+
+.suggestion {
+	line-height:1.5em;
+	font-size: 14px;
+	font-weight:700;
+	position:absolute;
+	display:none;
+	top:-30px;
+	left:100px;
+	color:#fff;
+	border-radius:5px;
+	box-shadow:0 1px 0 #75797a inset,0 1px 2px #555;
+	border:1px solid #000;
+	padding:8px 10px;
+	background:#3a3e3f;
+	background:-moz-linear-gradient(top,#3a3e3f 0%,#323637 50%,#292a2c 51%,#212224 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#3a3e3f),color-stop(50%,#323637),color-stop(51%,#292a2c),color-stop(100%,#212224));
+	background:-webkit-linear-gradient(top,#3a3e3f 0%,#323637 50%,#292a2c 51%,#212224 100%);
+	background:-o-linear-gradient(top,#3a3e3f 0%,#323637 50%,#292a2c 51%,#212224 100%);
+	background:-ms-linear-gradient(top,#3a3e3f 0%,#323637 50%,#292a2c 51%,#212224 100%);
+	background:linear-gradient(top,#3a3e3f 0%,#323637 50%,#292a2c 51%,#212224 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a3e3f',endColorstr='#212224',GradientType=0)
+}
+
+.suggestion:hover { cursor:pointer }
+
+.suggestion::after {
+	content:"\25BC";
+	font-size:12px;
+	position:absolute;
+	bottom:-18px;
+	left:50%;
+	color:#000
+}
+
+.suggestion:active,.suggestion:hover {
+	background:#34abe8;
+	background:-moz-linear-gradient(top,#34abe8 0%,#007fd1 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#34abe8),color-stop(100%,#007fd1));
+	background:-webkit-linear-gradient(top,#34abe8 0%,#007fd1 100%);
+	background:-o-linear-gradient(top,#34abe8 0%,#007fd1 100%);
+	background:-ms-linear-gradient(top,#34abe8 0%,#007fd1 100%);
+	background:linear-gradient(top,#34abe8 0%,#007fd1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#34abe8',endColorstr='#007fd1',GradientType=0);
+	box-shadow:0 1px 0 #83c7f0 inset,0 1px 2px #555;
+	border:1px solid #0075c0;
+	border-left-color:#0168a9;
+	border-right-color:#0168a9;
+	border-bottom-color:#014773
+}
+
+.suggestion:active::after,.suggestion:hover::after { color:#0075c0 }
