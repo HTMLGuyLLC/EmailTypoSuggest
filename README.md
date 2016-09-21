@@ -12,17 +12,17 @@ To Use:
 =====
 ```html
 <html>
-<head>
-  <link rel="stylesheet" href="dist/emailTS.css"/>
-</head>
-<body>
-  <input type='email'>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src='dist/emailTS.min.js'></script>
-  <script type="text/javascript">
-    $('input[type="email"]').emailTS();
-  </script>
-</body>
+  <head>
+    <link rel="stylesheet" href="dist/emailTS.css"/>
+  </head>
+  <body>
+    <input type='email'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src='dist/emailTS.min.js'></script>
+    <script type="text/javascript">
+      $('input[type="email"]').emailTS();
+    </script>
+  </body>
 </html>
 ```
 
