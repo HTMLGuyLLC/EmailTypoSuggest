@@ -1,6 +1,6 @@
 EmailTS by VersatilityWerks
 =====================
-###Email Typo and Suggestion jQuery Plugin
+####Email Typo and Suggestion jQuery Plugin
 
 Makes entering your email address faster, and prevents typos!
 
