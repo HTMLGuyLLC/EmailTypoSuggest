@@ -33,6 +33,6 @@ $('input[type="email"]').emailTS({
   tooltip: true,
   typo: true,
   domains: ['yahoo.com', 'ymail.com', 'live.com', 'mail.com', 'comcast.com', 'comcast.net', 'yahoo.co.uk', 'hotmail.co.uk', 'verizon.net', 'sbcglobal.net', 'att.net', 'embarqmail.com', 'aim.com', 'me.com', 'msn.com', 'hotmail.com', 'gmail.com', 'aol.com'],
-  addDomains: ['verswerks.com', 'farfromboring.com', 'nomoreagent.com']
+  addDomains: ['htmlguy.com', 'nomoreagent.com']
 });
 ```
