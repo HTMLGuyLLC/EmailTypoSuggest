@@ -16,10 +16,8 @@ var Mailcheck={domainThreshold:2,secondLevelThreshold:2,topLevelThreshold:2,defa
 /*
  * Email Typo/Suggestion Plugin
  *
- * Versatility Werks (flwebsites.biz)
- *
  * License
- * Copyright (c) 2014 Versatility Werks
+ * Copyright (c) 2018 HTMLGuy, LLC
  *
  * Licensed under the MIT License.
  *
@@ -36,7 +34,7 @@ var Mailcheck={domainThreshold:2,secondLevelThreshold:2,topLevelThreshold:2,defa
             tooltip: true,
             typo: true,
             domains: ['yahoo.com', 'ymail.com', 'live.com', 'mail.com', 'comcast.com', 'comcast.net', 'yahoo.co.uk', 'hotmail.co.uk', 'verizon.net', 'sbcglobal.net', 'att.net', 'embarqmail.com', 'aim.com', 'me.com', 'msn.com', 'hotmail.com', 'gmail.com', 'aol.com'],
-            addDomains: ['verswerks.com', 'farfromboring.com', 'nomoreagent.com']
+            addDomains: ['htmlguy.com', 'nomoreagent.com']
         };
 
         /* Combine user options with default */
