@@ -1,12 +1,12 @@
 EmailTS by VersatilityWerks
 =====================
-####Email Typo and Suggestion jQuery Plugin
+#### Email Typo and Suggestion jQuery Plugin
 
 Makes entering your email address faster, and prevents typos!
 
 EmailTS will try to suggest the correct domain while you're typing. You can either click enter or click on the tooltip. If you misspell a common domain like blah@gmail.com as blah@gamil.com, when you leave the field, it'll say "Did you mean blah@gmail.com?". If you click on the suggestion, it'll change the value for you. This is a MUST HAVE to illiminate customer frustration, and to speed up your own typing.
 
-#Demo: <a href='https://htmlguyllc.github.io/EmailTypoSuggest/'>https://htmlguyllc.github.io/EmailTypoSuggest/</a>
+# Demo: <a href='https://htmlguyllc.github.io/EmailTypoSuggest/'>https://htmlguyllc.github.io/EmailTypoSuggest/</a>
 
 To Use:
 =====
