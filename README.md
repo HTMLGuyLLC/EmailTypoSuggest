@@ -1,4 +1,4 @@
-EmailTS by VersatilityWerks
+EmailTS by HTMLGuy
 =====================
 #### Email Typo and Suggestion jQuery Plugin
 
